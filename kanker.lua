@@ -115,7 +115,7 @@ function Library:Window(title)
     Logo.BackgroundTransparency = 1.000
     Logo.Position = UDim2.new(0, 4, 0.5, 0)
     Logo.Size = UDim2.new(0, 26, 0, 30)
-    Logo.Image = "http://www.roblox.com/asset/?id=6403436082"
+    Logo.Image = "http://www.roblox.com/asset/?id=914225168"
     Logo.ImageColor3 = Color3.fromRGB(232, 17, 85)
     
     
@@ -126,7 +126,7 @@ function Library:Window(title)
     Close.BackgroundTransparency = 1.000
     Close.Position = UDim2.new(1, -6, 0.5, 0)
     Close.Size = UDim2.new(0, 20, 0, 20)
-    Close.Image = "http://www.roblox.com/asset/?id=6403436082"
+    Close.Image = "http://www.roblox.com/asset/?id=914225168"
     Close.ImageColor3 = Color3.fromRGB(199, 199, 199)
     Close.ScaleType = Enum.ScaleType.Crop
     Close.MouseButton1Click:connect(function()
@@ -797,5 +797,3 @@ coroutine.wrap(GRIR_fake_script)()
     end
     return Tabs
 end
-return Library
- 
